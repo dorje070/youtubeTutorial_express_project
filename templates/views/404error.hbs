@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlinks}}
+</head>
+<body>
+   {{>navbar}}
+   <!--- main header -->
+   <div class="container-fluid main_header">
+       <div class="row">
+           <div class="col-md-10 col-12 mx-auto">
+               <div class="row">
+                <!----right side div-->
+                <div class="col-md-10 col-12 main_header_left align-items-center">
+                    <figure class="errimg">
+                        <img src="images/404.png" alt="Dorje" class="img-fluid" title="Dorje Tamang">
+                    </figure>  
+                <!----left side div-->
+                  
+                       <p>Welcome to Dorje World</p>
+                       <h1>{{errorMsg}}</h1>
+                       <a href="/" target="_youtube"><button>Go back</button></a>
+                  
+               </div>
+           </div>
+        </div>
+    </div>
+
+    {{>footer}}
+</body>
+</html>
